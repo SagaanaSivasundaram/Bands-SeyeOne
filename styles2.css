@@ -1,0 +1,316 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Section styles */
+.section {
+    height: 100vh; /* Set the height of each section */
+    padding: 20px; /* Adjust as needed */
+    margin-top: 50px; /* Adjust to prevent content from being hidden behind the fixed navbar */
+}
+
+
+/* Navigation styles */
+nav {
+    background-color: #E5C0C8;
+    padding: 20px;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+li {
+    display: inline;
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Body styles */
+body {
+    background-color: #F5E3E3; /* Replace "yourColor" with the desired background color */
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding */
+    font-family: 'Open Sans', sans-serif;
+}
+/* Styles for the image within .blank-page-2 .intro-image */
+
+.intro-image {
+    max-width: 400px; /* Adjust the maximum width to make the image smaller */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Add border-radius if desired */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box-shadow if desired */
+    float: right; /* Move the image to the right side */
+    margin: 90px 20px 20px 0; /* Adjust margin to create space around the image */
+    position: absolute; /* Position the image absolutely */
+    top: 0; /* Align the image to the top of its container */
+    right: 20px; /* Align the image to the right of its container */
+    /* Add any other necessary styles */
+}
+
+
+/* Styles for the text container */
+.blank-page-2 .text-container {
+    width: 600px;
+    max-width: 50%;
+    height: 600px;
+    border: 0px solid #333;
+    padding: 20px; /* Adjust padding for spacing */
+    overflow: hidden;
+    text-align: left;
+}
+
+/* Styles for text within .blank-page-2 .text-container */
+.blank-page-2 .text-container p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+}
+
+.blank-page-2 .text-container h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+/* Styles for the second phase content */
+.second-phase {
+    background-color: #E5C0C8;
+    padding: 100px;
+    margin-top: 20px;
+    display: flex; /* Add display flex */
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Align items vertically */
+}
+
+/* Styles for the text container */
+.text-container {
+    width: 600px;
+    max-width: 50%;
+    height: 600px;
+    border: 0px solid #333;
+    padding: 20px; /* Adjust padding for spacing */
+    overflow: hidden;
+    text-align: left;
+}
+
+/* Styles for the first phase "Read More" button */
+.read-more-btn-first {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5A5362;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: -200px; /* Adjust this value as needed */
+    margin-bottom: 100px;
+    margin-left: 0px; /* Adjust this value as needed */
+    margin-right: 1250px; /* Adjust this value as needed */
+}
+
+.read-more-btn-first:hover {
+    background-color: #004080;
+}
+
+/* Styles for the second phase "Read More" button */
+.read-more-btn-second {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5A5362;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px; /* Adjust this value as needed */
+    margin-bottom: 10px;
+    margin-left: 0px; /* Adjust this value as needed */
+    margin-right: 20px; /* Adjust this value as needed */
+}
+
+.read-more-btn-second:hover {
+    background-color: #004080;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #0066cc;
+}
+
+/* S2nd phase read more page button */
+.read-more-content {
+    background-color: #F5E3E3;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.read-more-content h1 {
+    flex: 1 1 100%;
+    text-align: left;
+    padding: 10px 20px 0 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+
+.read-more-content p {
+    flex: 1 1 50%;
+    text-align: left;
+    padding: 10px 20px 20px 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+
+
+
+/* Styles for the image container */
+.image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.img1,
+.img2 {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+
+
+/* Invidual members */
+
+.kpop-images-container {
+    display: flex; /* Use flexbox */
+    flex-wrap: nowrap; /* Prevent items from wrapping */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical overflow */
+    justify-content: flex-start; /* Align items at the start of the flex container */
+    position: relative; /* Ensure proper positioning of text */
+}
+
+
+.kpop-image-container1 {
+    max-width: 100%; /* Set the maximum width */
+    max-height: auto; /* Set the maximum height */
+    width: auto; /* Example width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Example margin */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.image-text1 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+.kpop-image-container2 {
+    max-width: 100%; /* Set the maximum width */
+    max-height: auto; /* Set the maximum height */
+    width: auto; /* Example width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Example margin */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.image-text2 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+.kpop-image-container3 {
+    max-width: 100%; /* Set the maximum width */
+    max-height: auto; /* Set the maximum height */
+    width: auto; /* Example width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Example margin */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.image-text3 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+.kpop-image-container4 {
+    max-width: 100%; /* Set the maximum width */
+    max-height: auto; /* Set the maximum height */
+    width: auto; /* Example width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Example margin */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.image-text4 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+.kpop-image-container5 {
+    max-width: 100%; /* Set the maximum width */
+    max-height: auto; /* Set the maximum height */
+    width: auto; /* Example width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Example margin */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.image-text5 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000;
+}

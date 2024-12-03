@@ -1,0 +1,596 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles.css */
+
+/* Section styles */
+.section {
+    height: 100vh; /* Set the height of each section */
+    padding: 20px; /* Adjust as needed */
+    margin-top: 50px; /* Adjust to prevent content from being hidden behind the fixed navbar */
+}
+
+
+/* Navigation styles */
+nav {
+    background-color: #E5C0C8;
+    padding: 20px;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+li {
+    display: inline;
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* Image specific styles */
+img[src="original-4C5223E0-CC48-4F8C-899D-ED23817C757D.jpeg"] {
+    max-width: 100%;
+    height: auto;
+    border: 0px solid #333;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0px; /* Add margin for spacing */
+
+
+}
+
+/* Styles for specific containers */
+.image-container1 {
+    border-radius: 50px;
+    max-width: 25%;
+    margin: 50px; /* Adjust the margin for spacing */
+    box-sizing: border-box;
+    display: inline-block; /* Display containers in a horizontal line */
+    text-align: center;
+    clear: both; /* Clear the float to start a new line after each container */
+   
+}
+
+.image-container2 {
+    border-radius: 50px;
+    max-width: 25%;
+    margin: 50px; /* Adjust the margin for spacing */
+    box-sizing: border-box;
+    display: inline-block; /* Display containers in a horizontal line */
+    text-align: center;
+    clear: both; /* Clear the float to start a new line after each container */
+  
+}
+
+.image-container3 {
+    border-radius: 50px;
+    max-width: 25%;
+    margin: 50px; /* Adjust the margin for spacing */
+    box-sizing: border-box;
+    display: inline-block; /* Display containers in a horizontal line */
+    text-align: center;
+    clear: both; /* Clear the float to start a new line after each container */
+
+}
+
+/* Common styles for image containers */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container a {
+    text-decoration: none;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 0px solid #333;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 3px;
+}
+
+/* Body styles */
+body {
+    background-color: #F5E3E3; /* Replace "yourColor" with the desired background color */
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding */
+}
+
+/* Styles for text above containers */
+h2 {
+    color: #000; /* Text color */
+    font-size: 50px; /* Font size */
+    font-family: 'Open Sans', sans-serif; /* Use Open Sans font */
+    font-weight: bold; /* Font weight (bold) */
+    margin-top: 100px; /* Top margin */
+    margin-bottom: 10px; /* Bottom margin */
+    text-align: center; /* Center the text */
+}
+
+/* Styles for text under containers */
+.text-container1,
+.text-container2,
+.text-container3 {
+    text-align: center;
+    font-size: 18px;
+    margin: -10px 50px 50px; /* Adjust the top, right, and bottom margin */
+    width: 25%;
+    color: #000;
+    display: inline-block;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* Styles for text under containers */
+.text-container1,
+.text-container2,
+.text-container3 {
+    text-align: center;
+    font-size: 18px;
+    margin: -20px 50px 10px; /* Adjust the top, right, and bottom margin */
+    width: 25%;
+    color: #000; /* Change color to red (replace with your desired color) */
+    font-family: 'Open Sans', sans-serif; /* Change font to Arial (replace with your desired font) */
+    display: inline-block;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* Styles for "Follow us" text */
+.follow-us {
+    text-align: center;
+    font-size: 35px;
+    margin: 20px 0 20px; /* Adjust the top, right, and bottom margin */
+    color: #000; /* Change color to blue (replace with your desired color) */
+    font-family: 'Twilight Script', cursive; /* Use the Twilight Script font */
+}
+
+.follow-us2 {
+    text-align: center;
+    font-size: 17px;
+    margin: 10px 0 20px; /* Adjust the top, right, and bottom margin */
+    color: #000; /* Change color to blue (replace with your desired color) */
+    font-family: 'Open Sans', sans-serif; /* Change font to Arial (replace with your desired font) */
+}
+
+/* Styles for the social image */
+.follow-us-image {
+    display: block; /* Make sure the image is displayed as a block element */
+    margin: -20px auto; /* Center the image horizontally */
+    max-width: 100%; /* Make the image responsive */
+    box-shadow: none; /* Remove the box shadow */
+    padding-bottom: 100px; /* Add padding to the bottom */
+}
+
+/* Credit section */
+.pink-section {
+    background-color: #E5C0C8; /* Pink background color */
+    padding: 70px; /* Add padding for spacing */
+    text-align: center; /* Center the text */
+}
+
+.pink-section p {
+    margin: 0; /* Remove default margin for the paragraph */
+    font-size: 15px; /* Adjust the font size as needed */
+    color: #FFFFFF; /* Text color */
+    font-family: 'Open Sans', sans-serif; /* Change font to Arial (replace with your desired font) */
+}
+
+/* Styles for the image within .blank-page-1 .intro-image */
+.blank-page-1 .intro-image {
+    width: 600px;
+    height: 600px;
+    border-radius: 0;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+    max-width: 50%;
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+    max-width: 100%;
+    max-height: auto;
+    margin-top: -700px;
+    margin-right: 300px;
+    margin-bottom: 0;
+    margin-left: 760px;
+    padding-top: 20px;
+    padding-bottom: 130px;
+}
+
+/* Styles for the text container */
+.blank-page-1 .text-container {
+    width: 600px;
+    max-width: 50%;
+    height: 600px;
+    border: 0px solid #333;
+    padding: 20px; /* Adjust padding for spacing */
+    overflow: hidden;
+    text-align: left;
+}
+
+/* Styles for text within .blank-page-1 .text-container */
+.blank-page-1 .text-container p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+}
+
+.blank-page-1 .text-container h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+/* Styles for the second phase content */
+.second-phase {
+    background-color: #E5C0C8;
+    padding: 100px;
+    margin-top: 20px;
+    display: flex; /* Add display flex */
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Align items vertically */
+}
+
+/* Styles for the text container */
+.text-container {
+    width: 600px;
+    max-width: 50%;
+    height: 600px;
+    border: 0px solid #333;
+    padding: 20px; /* Adjust padding for spacing */
+    overflow: hidden;
+    text-align: left;
+}
+
+/* Styles for the first phase "Read More" button */
+.read-more-btn-first {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5A5362;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 50px; /* Adjust this value as needed */
+    margin-bottom: 100px;
+    margin-left: 0px; /* Adjust this value as needed */
+    margin-right: 1250px; /* Adjust this value as needed */
+}
+
+.read-more-btn-first:hover {
+    background-color: #004080;
+}
+
+/* Styles for the second phase "Read More" button */
+.read-more-btn-second {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5A5362;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px; /* Adjust this value as needed */
+    margin-bottom: 10px;
+    margin-left: 0px; /* Adjust this value as needed */
+    margin-right: 20px; /* Adjust this value as needed */
+}
+
+.read-more-btn-second:hover {
+    background-color: #004080;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #0066cc;
+}
+
+/* Styles specific to read-more.html page */
+.read-more-content {
+    background-color: #F5E3E3;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.read-more-content h1 {
+    flex: 1 1 100%;
+    text-align: left;
+    padding: 10px 20px 0 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+
+.read-more-content p {
+    flex: 1 1 50%;
+    text-align: left;
+    padding: 10px 20px 20px 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+
+/* Styles for the image section */
+.image-section {
+    flex: 1 1 50%;
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.image-section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+/* Styles for the text next to the image */
+.text-next-to-image {
+    overflow: hidden;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.text-next-to-image strong {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.text-next-to-image br {
+    display: none;
+}
+
+.text-next-to-image p {
+    margin-bottom: 12px;
+}
+
+/* Additional styles for the second phase pictures */
+.second-phase .text-container {
+    margin-top: 20px; /* Adjust margin-top as needed */
+}
+
+.read-more-btn {
+    margin-top: 20px; /* Adjust margin-top as needed */
+    margin-bottom: 0px;
+}
+
+/* Styles for the image container */
+.image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.img1,
+.img2 {
+    max-width: 100%;
+    height: 200px;
+    width: 700px;
+    margin-bottom: 10px;
+}
+
+/* above the read more piece 2nd phase text*/
+.parent-container {
+    padding-top: 10px; /* Adjust this value to move the text downwards */
+}
+
+.parent-container h1,
+.parent-container p.General-info {
+    /* Apply additional styles to these specific text elements if needed */
+    /* For example: */
+    font-size: 16px; /* Change the font size */
+    color: #333; /* Change the text color */
+    /* Add any other styles you need */
+}
+
+
+/* Invidual members */
+
+.kpop-images-container {
+    display: flex; /* Use flexbox */
+    flex-wrap: nowrap; /* Prevent items from wrapping */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical overflow */
+    justify-content: flex-start; /* Align items at the start of the flex container */
+    position: relative; /* Ensure proper positioning of text */
+}
+
+
+.kpop-image-container1 {
+    max-width: 100%; /* Set the maximum width */
+    max-height: auto; /* Set the maximum height */
+    width: auto; /* Example width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Example margin */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.image-text1 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+.kpop-image-container2 {
+    max-width: 100%; /* Set the maximum width */
+    max-height: auto; /* Set the maximum height */
+    width: auto; /* Example width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Example margin */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.image-text2 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+.kpop-image-container3 {
+    max-width: 100%; /* Set the maximum width */
+    max-height: auto; /* Set the maximum height */
+    width: auto; /* Example width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Example margin */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.image-text3 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+.kpop-image-container4 {
+    max-width: 100%; /* Set the maximum width */
+    max-height: auto; /* Set the maximum height */
+    width: auto; /* Example width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Example margin */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.image-text4 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+.kpop-image-container5 {
+    max-width: 100%; /* Set the maximum width */
+    max-height: auto; /* Set the maximum height */
+    width: auto; /* Example width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Example margin */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.image-text5 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+.kpop-image-container6 {
+    max-width: 100%; /* Set the maximum width */
+    max-height: auto; /* Set the maximum height */
+    width: auto; /* Example width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Example margin */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.image-text6 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+.kpop-image-container7 {
+    max-width: 100%; /* Set the maximum width */
+    max-height: auto; /* Set the maximum height */
+    width: auto; /* Example width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Example margin */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.image-text7 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+.kpop-image-container8 {
+    max-width: 100%; /* Set the maximum width */
+    max-height: auto; /* Set the maximum height */
+    width: auto; /* Example width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Example margin */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.image-text8 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+
+
+

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeyeOne</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+</head>
+
+<body >
+
+<nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#bands">Bands</a></li>
+            <li><a href="#exo">Exo</a></li>
+            <li><a href="#new-jeans">New Jeans</a></li>
+            <li><a href="#one-direction">One Direction</a></li>
+            <li><a href="#about-us">About us</a></li>
+        </ul>
+</nav>
+
+
+    <style>
+        /* Reset.css */
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styles.css */
+        nav {
+            background-color: #E5C0C8;
+            padding: 30px;
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: right;
+        }
+
+/* Image specific styles */
+img[src="original-4C5223E0-CC48-4F8C-899D-ED23817C757D.jpeg"] {
+    max-width: 100%;
+    height: auto;
+    border: 0px solid #333;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0px; /* Add margin for spacing */
+
+
+}
+
+/* Styles for specific containers */
+.image-container1 {
+    border-radius: 50px;
+    max-width: 25%;
+    margin: 50px; /* Adjust the margin for spacing */
+    box-sizing: border-box;
+    display: inline-block; /* Display containers in a horizontal line */
+    text-align: center;
+    clear: both; /* Clear the float to start a new line after each container */
+   
+}
+
+.image-container2 {
+    border-radius: 50px;
+    max-width: 25%;
+    margin: 50px; /* Adjust the margin for spacing */
+    box-sizing: border-box;
+    display: inline-block; /* Display containers in a horizontal line */
+    text-align: center;
+    clear: both; /* Clear the float to start a new line after each container */
+    
+}
+
+.image-container3 {
+    border-radius: 50px;
+    max-width: 25%;
+    margin: 50px; /* Adjust the margin for spacing */
+    box-sizing: border-box;
+    display: inline-block; /* Display containers in a horizontal line */
+    text-align: center;
+    clear: both; /* Clear the float to start a new line after each container */
+
+}
+
+        /* Common styles for image containers */
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image-container a {
+            text-decoration: none;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 0px solid #333;
+            border-radius: 0px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin: 3px;
+        }
+
+    </style>
+
+
+    <!-- Image with the specified source -->
+<img id="home-section-image" src="original-4C5223E0-CC48-4F8C-899D-ED23817C757D.jpeg" alt="Image Description">
+
+<!-- Text above containers -->
+<h2 id="choose-your-team-heading">Choose your team</h2>
+
+<!-- First image container -->
+<div id="image-container-1" class="image-container image-container1" onclick="openBlankPage(1)">
+    <a href="#">
+        <img src="original-D33B21D7-782F-43A4-AF0C-EAE830BDDCCB.jpeg" alt="Image 1">
+    </a>
+</div>
+
+<!-- Second image container -->
+<div id="image-container-2" class="image-container image-container2" onclick="openBlankPage(2)">
+    <a href="#">
+        <img src="newjeans-ador-hybe-090123.jpg" alt="Image 2">
+    </a>
+</div>
+
+<!-- Third image container -->
+<div id="image-container-3" class="image-container image-container3" onclick="openBlankPage(3)">
+    <a href="#">
+        <img src="original-4E2962AB-2A4B-4FA4-A1ED-21132C758C63.jpeg" alt="Image 3">
+    </a>
+</div>
+
+
+    <style>
+
+/* Styles for text under containers */
+.text-container1,
+.text-container2,
+.text-container3 {
+    text-align: center;
+    font-size: 23px;
+    margin: -20px 50px 50px; /* Adjust the top, right, and bottom margin */
+    width: 25%;
+    color: #000;
+    display: inline-block;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+    </style>
+
+    <!-- Text under containers -->
+    <h4 class="text-container1">Exo</h4>
+    <h4 class="text-container2">New Jeans</h4>
+    <h4 class="text-container3">One Direction</h4>
+
+    <!-- Follow us text -->
+<h3 class="follow-us">Follow us</h3>
+<p  class="follow-us2">Follow us and them on Twitter, Instagram, and more for instant updates and interactive fun!</p>
+
+
+<!-- Social Image -->
+<img class="follow-us-image" src="Scherm­afbeelding 2024-01-23 om 10.09.34.png" alt="Image Description">
+
+<!-- Credits -->
+<div class="pink-section">
+    <p>Project: Bands</p>
+    <p>Members: Sagaana Sivasundaram, Mariska Ye, and Rianne Ever</p>
+</div>
+
+<script src="script.js" defer></script>
+
+</body>
+
+</html>
+
